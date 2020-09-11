@@ -1,0 +1,18 @@
+{
+  "(?-mix:\\A(?i-mx:(un)?licen[sc]e)\\z)": 1.0,
+  "(?-mix:\\A(?i-mx:(un)?licen[sc]e)(?-mix:\\.(?-mix:md|markdown|txt|html)\\z)\\z)": 0.95,
+  "(?-mix:\\A(?i-mx:copy(ing|right))\\z)": 0.9,
+  "(?-mix:\\A(?i-mx:copy(ing|right))(?-mix:\\.(?-mix:md|markdown|txt|html)\\z)\\z)": 0.85,
+  "(?-mix:\\A(?i-mx:(un)?licen[sc]e)(?i-mx:\\.(?!spdx|header|gemspec)[^.\\/]+\\z)\\z)": 0.8,
+  "(?-mix:\\A(?i-mx:copy(ing|right))(?i-mx:\\.(?!spdx|header|gemspec)[^.\\/]+\\z)\\z)": 0.75,
+  "(?-mix:\\A(?i-mx:(un)?licen[sc]e)[-_])": 0.7,
+  "(?-mix:\\A(?i-mx:copy(ing|right))[-_])": 0.65,
+  "(?-mix:[-_](?i-mx:(un)?licen[sc]e))": 0.6,
+  "(?-mix:[-_](?i-mx:copy(ing|right)))": 0.55,
+  "(?-mix:\\A(?i-mx:ofl)(?-mix:\\.(?-mix:md|markdown|txt|html)\\z))": 0.5,
+  "(?-mix:\\A(?i-mx:ofl)(?i-mx:\\.(?!spdx|header|gemspec)[^.\\/]+\\z))": 0.45,
+  "(?-mix:\\A(?i-mx:ofl)\\z)": 0.4,
+  "(?-mix:\\A(?i-mx:patents)\\z)": 0.35,
+  "(?-mix:\\A(?i-mx:patents)(?i-mx:\\.(?!spdx|header|gemspec)[^.\\/]+\\z)\\z)": 0.3,
+  "(?-mix:)": 0.0
+}
